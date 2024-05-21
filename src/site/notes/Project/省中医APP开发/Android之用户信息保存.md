@@ -30,6 +30,8 @@ AndroidStudio提供了SharedProferences类，这是一个轻量储存类，适�
 ```
 
 根据上面的例子，可以看出修改数据的时候创建一个Editor对象，用Editor对象进行修改，有三种形式put, remove, clear。读取的时候则是用sharedPreferences对象
+# 改进：
+SharedPreferences目前有替代方案：DataStore，但是还没有深入研究，因为哥们🤠已经用SQL数据库了
 # REF:
 1. [Android学习之保存用户登录信息-阿里云开发者社区 (aliyun.com)](https://developer.aliyun.com/article/642423#:~:text=%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87SharedProferences%E7%B1%BB%E7%9A%84getSharedPreferences%20%28String,NAME%2C%20int%20MODE%29%E6%96%B9%E6%B3%95%E6%9D%A5%E5%AE%9E%E7%8E%B0%E5%AF%B9%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95%E4%BF%A1%E6%81%AF%E7%9A%84%E4%BF%9D%E5%AD%98%EF%BC%8C%E5%A6%82%EF%BC%9A%E7%94%A8%E6%88%B7%E5%90%8D%EF%BC%8C%E5%AF%86%E7%A0%81%EF%BC%8C%EF%BD%83%EF%BD%8F%EF%BD%8F%EF%BD%8B%EF%BD%89%EF%BD%85%E7%AD%89%E3%80%82)
 2. [Android SharedPreferences使用详解_android getsharedpreferences-CSDN博客](https://blog.csdn.net/huweiliyi/article/details/105496932)
