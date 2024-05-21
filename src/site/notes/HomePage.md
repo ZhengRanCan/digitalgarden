@@ -1,5 +1,5 @@
 ---
-{"banner":"https://api.dujin.org/bing/1920.php","dg-publish":true,"dg-home":"true","permalink":"/HomePage/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"banner":"https://api.dujin.org/bing/1920.php","dg-publish":true,"permalink":"/HomePage/","dgPassFrontmatter":true}
 ---
 
 ```contributionWidget
