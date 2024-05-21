@@ -1,5 +1,5 @@
 ---
-{"tags":["Project/省中医APP开发","gardenEntry","gardenEntry","gardenEntry"],"dg-publish":true,"dg-home":"true","permalink":"/Project/省中医APP开发/省中医APP开发/","dgPassFrontmatter":true}
+{"tags":["Project/省中医APP开发","gardenEntry"],"dg-publish":true,"dg-home":"true","permalink":"/Project/省中医APP开发/省中医APP开发/","dgPassFrontmatter":true}
 ---
 
 # 功能开发
@@ -83,12 +83,9 @@
 
 ---
 # APP模块
+![[Component/components-20240521162102.components]]
 
-```components
-componentId: 0f1f525e-1087-4ffe-b598-3aa053689f8b
-
-```
-
+由于代码用Kotlin重构过一次，所以笔记有些JAVA和Kotlin混杂，后面看有没有时间改一手
 ## APP分为四个模块 ：
 1. [[Project/省中医APP开发/APP的初始界面\|APP的初始界面]]
 2. [[Project/省中医APP开发/APP的舌诊界面\|APP的舌诊界面]]
@@ -98,7 +95,7 @@ componentId: 0f1f525e-1087-4ffe-b598-3aa053689f8b
 ## 其他功能模块或注意点
 1. [[Project/省中医APP开发/APP项目规范\|APP项目规范]]
 2. [[Project/省中医APP开发/UI/使用Figma转换代码\|使用Figma转换代码]]
-3. [[Project/AndroidStudio/数据库数据调用\|数据库数据调用]]
+
 
 
 ---
