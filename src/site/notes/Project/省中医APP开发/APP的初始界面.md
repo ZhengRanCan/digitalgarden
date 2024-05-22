@@ -8,7 +8,7 @@
 
 ## 广告界面
 用Figma生成广告界面，然后设置延迟一秒就可以跳过了，嘻嘻🤠。
-1.  [[Project/省中医APP开发/Android之用户信息保存\|Android之用户信息保存]]  、[[Project/AndroidStudio/数据存储\|数据存储]]
+1.  [[Project/AndroidStudio/数据存储\|数据存储]]  、[[Project/AndroidStudio/数据存储\|数据存储]]
 2. 用本地的数据库确认是否登录，这样速度应该是快点。
 - [x]  ✅ 2024-05-21
 
