@@ -1,5 +1,5 @@
 ---
-{"tags":["Project/AndroidStudio","Project/AndroidStudio/Kotlin"],"dg-publish":true,"permalink":"/Project/AndroidStudio/Kotlin的Lambda/","dgPassFrontmatter":true}
+{"tags":["Project/AndroidStudio/Kotlin"],"dg-publish":true,"permalink":"/Project/AndroidStudio/Kotlin的Lambda/","dgPassFrontmatter":true}
 ---
 
 Higher Order function (高阶函数)：函数的参数和返回值有函数类型
