@@ -138,5 +138,8 @@
 	1. [Kotlin 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/kotlin/kotlin-tutorial.html)
 	2. [[Project/AndroidStudio/Kotlin代码学习\|Kotlin代码学习]]
 ---
+
+# UI设计
+1. [[Project/AndroidStudio/读UI文章有感\|读UI文章有感]]
 # REF:
 1. [02-Android 发展历程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV19U4y1R7zV/?p=2&spm_id_from=pageDriver&vd_source=ed636aea03b32e53457a090439165487) (入门)
