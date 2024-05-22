@@ -2,17 +2,13 @@
 {"tags":["Project/AndroidStudio"],"dg-publish":true,"permalink":"/Project/AndroidStudio/AndroidStudio入门/","dgPassFrontmatter":true}
 ---
 
+# 基础学习
 ## 安装
 1. [下载android studio (wolai.com)](https://www.wolai.com/dyDs6YzzSJD96QTa648aGJ)
 2. 好像联想应用商店也能下载的样子
 3. 安装JDK
 	1. 【保姆级Android Studio+JDK安装配置教程带字幕】 https://www.bilibili.com/video/BV1S44y1572j/?share_source=copy_web&vd_source=817ae913d5c2a3e04f92694955abe876
-
-## 语言
-1. JAVA
-	1. [[Project/AndroidStudio/JAVA入门\|JAVA入门]]
-2. KOTLIN
-	1. [Kotlin 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/kotlin/kotlin-tutorial.html)
+	2. AndroidStudio环境部署：[p03-安装JDK_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Su4y1w7hL/?p=3&spm_id_from=pageDriver&vd_source=ed636aea03b32e53457a090439165487)
 
 ## 项目基础设置
 1. 新建项目
@@ -51,15 +47,20 @@
 		4. setting. gradle    所需编译的模块
 		5. local. properties  项目的本地配置文件
 
+## Git
+1.  [[Project/AndroidStudio/git使用\|git使用]]
+2.  [版本控制基础知识 |Android 工作室 |Android 开发人员 (google.cn)](https://developer.android.google.cn/studio/projects/version-control)（官网） 
 
+---
+# JAVA和View
+## JAVA入门
+1. [[Project/AndroidStudio/JAVA入门\|JAVA入门]]
 ## 前后端交互
 1. activity_main文件 构建前端页面
 	1. 组件通过设置ID可被后端容易找到。
 2. MainActivity文件: 用于数据交互
 	1. 前端界面组件通过setContentView（R.layout.activity_main）一个一个被识别成view，如果想找到某个view，可通过findViewByID（）;（当组件多了，挺麻烦的）
 3. Activity: 一个应用程序组件，提供屏幕用于交互
-
- [[Project/AndroidStudio/日志打印\|日志打印]]
 ## 创建新的APP页面
 1. 第一种方法：
 	1. layout目录下创建xml文件
@@ -69,8 +70,6 @@
 	3. 在AndroidManifest.xml中注册页面配置
 2. 第二种方法：
 	1. 直接在java文件夹下添加一个new activity就行了
-
-
 ## 视图
 1. 宽高的取值有三种：
 	1. match_parent：与上级视图保持一定
@@ -129,12 +128,15 @@
 2. 利用[[Project/AndroidStudio/intent\|intent]]在两个activity之间进行数据包交换
 3. 利用[[Project/AndroidStudio/intent\|intent]]获取返回数据
 
+## 调试
+ [[Project/AndroidStudio/日志打印\|日志打印]]
 
+
+---
+# Kotlin
+1. KOTLIN
+	1. [Kotlin 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/kotlin/kotlin-tutorial.html)
+	2. [[Project/AndroidStudio/Kotlin代码学习\|Kotlin代码学习]]
+---
 # REF:
 1. [02-Android 发展历程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV19U4y1R7zV/?p=2&spm_id_from=pageDriver&vd_source=ed636aea03b32e53457a090439165487) (入门)
-2. [[Project/ue/Android打包/虚幻引擎android打包\|虚幻引擎android打包]] （安装JDK）
-3. [版本控制基础知识 |Android 工作室 |Android 开发人员 (google.cn)](https://developer.android.google.cn/studio/projects/version-control)（官网？）
-4. 日志打印
-	1. [Logcat 命令行工具  |  Android Studio  |  Android Developers (google.cn)](https://developer.android.google.cn/tools/logcat?hl=zh_cn)
-	2. [AndroidStudio - 新版本 Logcat 使用详解_android studio logcat-CSDN博客](https://blog.csdn.net/qq_20451879/article/details/134694630)
-5. 
