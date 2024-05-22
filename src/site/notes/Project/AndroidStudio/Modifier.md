@@ -1,5 +1,5 @@
 ---
-{"tags":["Project/AndroidStudio/Kotlin","Project/AndroidStudio"],"dg-publish":true,"permalink":"/Project/AndroidStudio/Modifier/","dgPassFrontmatter":true}
+{"tags":["Project/AndroidStudio/Kotlin"],"dg-publish":true,"permalink":"/Project/AndroidStudio/Modifier/","dgPassFrontmatter":true}
 ---
 
 ## 对于Componse函数什么时候用Modifier的疑惑
