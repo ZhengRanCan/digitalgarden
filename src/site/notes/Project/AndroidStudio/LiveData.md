@@ -56,6 +56,7 @@ button.setOnClickListener {   
 ---
 # 名词 ：
 1. 生命周期：共有五种：created，destroyed，initalized，resumed，started
-2. `by ` 关键字：用于属性委托，并将属性的getter和setter委托给另一个对象
+2. `by ` 关键字：用于属性委托，并将属性的getter和setter委托给另一个对象 [[Project/AndroidStudio/Kotlin变量、函数、类型\|Kotlin变量、函数、类型]]
 # REF：
 1. [LiveData 概览  |  Android 开发者  |  Android Developers](https://developer.android.com/topic/libraries/architecture/livedata?hl=zh-cn)
+2. 后续可能会被Flow给取代 [LiveData：还没普及就让我去世？我去你的 Kotlin 协程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1WL411E7ry/?spm_id_from=333.880.my_history.page.click)
