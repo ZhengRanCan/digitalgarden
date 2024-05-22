@@ -1,8 +1,27 @@
 ---
-{"tags":["Project/省中医APP开发","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"dg-publish":true,"dg-home":"true","permalink":"/Project/省中医APP开发/省中医APP开发/","dgPassFrontmatter":true}
+{"tags":["Project/省中医APP开发","gardenEntry"],"dg-publish":true,"dg-home":"true","permalink":"/Project/省中医APP开发/省中医APP开发/","dgPassFrontmatter":true}
 ---
 
-# 功能开发
+
+
+---
+# APP模块
+![[Component/components-20240521162102.components]]
+
+由于代码用Kotlin重构过一次，所以笔记有些JAVA和Kotlin混杂，后面看有没有时间改一手
+## APP分为四个模块 ：
+1. [[Project/省中医APP开发/APP的初始界面\|APP的初始界面]]
+2. [[Project/省中医APP开发/APP的舌诊界面\|APP的舌诊界面]]
+3. [[Project/省中医APP开发/APP的拍照界面\|APP的拍照界面]]
+4. [[Project/省中医APP开发/APP舌诊报告界面\|APP舌诊报告界面]]
+
+## 注意点
+1. [[Project/省中医APP开发/APP项目规范\|APP项目规范]]
+2. UI: [[Project/省中医APP开发/UI/使用Figma转换代码\|使用Figma转换代码]]
+3. 入门：[[Project/AndroidStudio/AndroidStudio入门\|AndroidStudio入门]]
+
+---
+# 功能开发历程
 ## V1.0：
 1. 提供基础相机功能以拍摄病人舌头
 	1. [[Project/省中医APP开发/相机开发\|相机开发]]
@@ -11,11 +30,7 @@
 	2. 角度
 	3. 大小
 3. 提供API接口，以供AI模型接入
-## 平台：
-1. 原生开发
-	1. [[Project/AndroidStudio/AndroidStudio入门\|AndroidStudio入门]]
-2. 混合开发
-数据存储方面：先用SharedPreferences进行存储吧
+
 ## v2.0
 1. 完善app界面，美化
 2. 将yolov8或者其他yolo模型部署到手机上，或者通过rstp，tcp啥的协议做服务端生成，客户端通过API接受。（这一部分主要是用于检测是否有舌头）
@@ -82,30 +97,13 @@
 	1. 听说后面有专业团队，先放着
 
 ---
-# APP模块
-![[Component/components-20240521162102.components]]
-
-由于代码用Kotlin重构过一次，所以笔记有些JAVA和Kotlin混杂，后面看有没有时间改一手
-## APP分为四个模块 ：
-1. [[Project/省中医APP开发/APP的初始界面\|APP的初始界面]]
-2. [[Project/省中医APP开发/APP的舌诊界面\|APP的舌诊界面]]
-3. [[Project/省中医APP开发/APP的拍照界面\|APP的拍照界面]]
-4. [[Project/省中医APP开发/APP舌诊报告界面\|APP舌诊报告界面]]
-
-## 其他功能模块或注意点
-1. [[Project/省中医APP开发/APP项目规范\|APP项目规范]]
-2. [[Project/省中医APP开发/UI/使用Figma转换代码\|使用Figma转换代码]]
-
-
-
----
-# REF :
-1. 支付宝人脸认证
-	1. [【C语言/C++】一小时学会支付宝人脸识别系统_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1io4y127yC/?spm_id_from=333.337.search-card.all.click&vd_source=ed636aea03b32e53457a090439165487)
-2. APP开发
+## 开发平台的选择
+1. APP开发选择
 	1. QT？
 		1. [利用Qt开发跨平台APP（一）（Android）_安卓ui可以用qt开发-CSDN博客](https://blog.csdn.net/wikichan/article/details/77679783)
 	2. [如何从零开始写一个 Android 安卓 App ？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/442096241)
 	3. Android Studio (比较主流？)
 		1. [2022 最新 Android 基础教程，从开发入门到项目实战，看它就够了，更新中_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV19U4y1R7zV/?spm_id_from=333.337.search-card.all.click&vd_source=ed636aea03b32e53457a090439165487)
-		2. 
+	4. 小程序
+2. 因为AndroidStudio的开发选择比较主流，所以就选择主流
+3. 在项目的一开始我们选择的是JAVA开发，但是后面因为我看到可以 [[Project/省中医APP开发/UI/使用Figma转换代码\|使用Figma转换代码]] ，这个功能需要用到Componse，所以后面就用Kotlin和Componse了。
