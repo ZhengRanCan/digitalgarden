@@ -1,5 +1,5 @@
 ---
-{"tags":["Project/AndroidStudio","Project/AndroidStudio/Kotlin"],"dg-publish":true,"permalink":"/Project/AndroidStudio/Kotlin变量、函数、类型/","dgPassFrontmatter":true}
+{"tags":["Project/AndroidStudio/Kotlin"],"dg-publish":true,"permalink":"/Project/AndroidStudio/Kotlin变量、函数、类型/","dgPassFrontmatter":true}
 ---
 
 ## 基本规则 ：
@@ -25,3 +25,7 @@ val view:ViewModel by ViewModel
 2. 属性委托：第二行使用Kotlin的属性委托语法，`by` 关键字表示将 `view` 属性的实现委托给 `viewModels（）` 返回的对象，返回一个懒加载的 `ViewModel` 实例
 3. 直接初始化：适用于立即创建实例的情况，不涉及生命周期管理
 4. 属性委托：适用于延迟初始化和需要Android生命周期继承的情况
+
+
+# REF：
+1. [【码上开学】Kotlin 的变量、函数和类型 (rengwuxian.com)](https://rengwuxian.com/kotlin-basic-1/)
