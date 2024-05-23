@@ -16,8 +16,11 @@ var name:String? = null
 3. 基本类型跟JAVA的不一样
 	1. 基本类型为：数字、字符、布尔值、数组、字符串
 
+## val
+1. `val`（只读引用）：一旦变量被初始化，它的引用不能再改变。但是，引用的对象本身可以是可变的。
+2. `val` 关键字用于声明只读变量，但这并不意味着变量引用的对象是不可变的。它只是意味着你不能重新分配这个变量指向一个新的对象。然而，变量引用的对象本身可能是可变的。
 ## by和赋值的区别
-```
+```kotlin
 val view:ViewModel = ViewModel 
 val view:ViewModel by ViewModel
 ```
