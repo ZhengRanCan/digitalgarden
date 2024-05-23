@@ -130,13 +130,17 @@
 
 ## 调试
  [[Project/AndroidStudio/日志打印\|日志打印]]
-
+## 注解
+[[Project/AndroidStudio/注解\|注解]]
 
 ---
 # Kotlin
-1. KOTLIN
-	1. [Kotlin 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/kotlin/kotlin-tutorial.html)
-	2. [[Project/AndroidStudio/Kotlin代码学习\|Kotlin代码学习]]
+## 入门
+1. [Kotlin 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/kotlin/kotlin-tutorial.html)
+2. [[Project/AndroidStudio/Kotlin代码学习\|Kotlin代码学习]]（自己写的）
+
+## 注解
+[[Project/AndroidStudio/注解\|注解]]
 ---
 
 # UI设计
