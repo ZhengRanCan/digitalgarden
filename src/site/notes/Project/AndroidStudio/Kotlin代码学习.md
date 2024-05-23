@@ -17,6 +17,7 @@
 [[Project/AndroidStudio/kotlin Flow\|kotlin Flow]]
 ## 数据存储
 [[Project/AndroidStudio/数据存储\|数据存储]]
+[[Project/AndroidStudio/依赖注入\|依赖注入]]
 
 # REF:
 1. [【码上开学】Kotlin 的变量、函数和类型_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1x4411o7Wy/?spm_id_from=333.788&vd_source=ed636aea03b32e53457a090439165487)
