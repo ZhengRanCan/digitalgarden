@@ -9,9 +9,12 @@
 [[Project/AndroidStudio/Kotlin的Lambda\|Kotlin的Lambda]]
 [[Project/AndroidStudio/Modifier\|Modifier]]
 [[Project/AndroidStudio/状态管理\|状态管理]]
+[[Project/AndroidStudio/Navigation\|Navigation]]
 ## Componse
 1. 熟练案例: [[Project/AndroidStudio/仿微信界面\|仿微信界面]]
 2.  [[Project/省中医APP开发/UI/使用Figma转换代码\|使用Figma转换代码]]
+3. [[Project/AndroidStudio/Componse组件\|Componse组件]]
+4. [[Project/AndroidStudio/Fragment\|Fragment]]
 ## 协程
 [[Project/AndroidStudio/协程\|协程]]
 [[Project/AndroidStudio/kotlin Flow\|kotlin Flow]]
