@@ -12,13 +12,47 @@ Navigation组件共有三个部分：
 ## 在应用为目标页面定义路线
 1. 在Compose应用中，导航的一个基本概念就是路线。路线是与目标页面对应的字符串。这类似于网址的概念。就像不同网址映射到网站上的不同页面一样，路线是可映射至目标页面并作为其唯一标识符的字符串。目标页面通常是与用户看到的内容相对应的单个可组合项或一组可组合项。
 2. 用枚举类来定义应用的路线
-3. 在Activity中创建一个枚举类
+3. ~~在Activity中创建一个枚举类~~
+4. 通过GPT好像发现了一种更好的数据形式（object创建）
 ```kotlin
+//枚举类
 enum class CupcakeScreen() {
 	Start,
 	Flavor,
 	Pickup,
 	Summary
+}
+//一开始GPT给的是`selected class`形式
+sealed class NavigationItem(var route: String, var icon: ImageVector, var title: String) {
+    object Home : NavigationItem("home", Icons.Filled.Home, "首页")
+    object Status : NavigationItem("status", Icons.Filled.Assessment, "状态")
+    object Dynamic : NavigationItem("dynamic", Icons.Filled.TrendingUp, "动态")
+    object Profile : NavigationItem("profile", Icons.Filled.Person, "我的")
+}
+//优点
+//类型安全，单一实例
+//缺点：
+//扩展不变，额外的类开销大
+
+//`object`和`data class`形式
+object NavigationItem {
+    val Home = NavItem("home", Icons.Filled.Home, "首页")
+    val Status = NavItem("status", Icons.Filled.Assessment, "状态")
+    val Dynamic = NavItem("dynamic", Icons.Filled.TrendingUp, "动态")
+    val Profile = NavItem("profile", Icons.Filled.Person, "我的")
+
+    data class NavItem(val route: String, val icon: ImageVector, val title: String)
+}
+//简洁，灵活，集中管理但是类型安全弱
+//对我个人而言的话就是容易集中管理吧，可以把导航想都写在一个`object里`
+
+//object
+object NavigationItem {  
+	val Home = NavItem("home", Icons.Filled.Home, "看舌")  
+	val Favorites = NavItem("favorites", Icons.Filled.Favorite, "状态")  
+	val Profile = NavItem("profile", Icons.Filled.Person, "我的")  
+	  
+	data class NavItem(val route: String, val icon: ImageVector, val title: String)  
 }
 ```
 ## 为应用添加NavHost
