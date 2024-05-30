@@ -64,5 +64,6 @@ FragmentManager 类负责在应用的 fragment 上执行一些操作，如添�
 - **执行事务**：使用`commit()`方法来提交事务，这表明所有的操作都已经添加到事务中，并且准备执行。
 
 真用Fragment吗？真的假的，到现在都还是保持疑问啊
+在Componse中目前来看，好像没啥要用Fragment的必要了。主要用着挺麻烦的，Navigation用组合函数就行了，生命周期这些... 就不清楚，如果到时候要用到ViewModel呢？
 # REF:
 1. 
