@@ -35,6 +35,7 @@ fun SetTextStyleing(displayText:String,style:TextStyle?=null,maxLines:Int? =null
 在Composable注解上面再加一个注解@Preview
 
 # 组件介绍
+## [[Project/AndroidStudio/Scaffold\|Scaffold]]
 ## Column
 将所有子级垂直放置，类似View系统中的LinearLayout
 如果要水平放置，则选择Row，下面的把Column改成Row就行
