@@ -1,5 +1,5 @@
 ---
-{"tags":["Project/省中医APP开发","gardenEntry","gardenEntry"],"dg-publish":true,"dg-home":"true","permalink":"/Project/省中医APP开发/省中医APP开发/","dgPassFrontmatter":true}
+{"tags":["Project/省中医APP开发","gardenEntry"],"dg-publish":true,"dg-home":"true","permalink":"/Project/省中医APP开发/省中医APP开发/","dgPassFrontmatter":true}
 ---
 
 
@@ -9,11 +9,10 @@
 ![[Component/components-20240521162102.components]]
 
 由于代码用Kotlin重构过一次，所以笔记有些JAVA和Kotlin混杂，后面看有没有时间改一手
-## APP分为四个模块 ：
+## APP分为三个模块 ：
 1. [[Project/省中医APP开发/APP的初始界面\|APP的初始界面]]
 2. [[Project/省中医APP开发/APP的舌诊界面\|APP的舌诊界面]]
-3. [[Project/省中医APP开发/APP的拍照界面\|APP的拍照界面]]
-4. [[Project/省中医APP开发/APP舌诊报告界面\|APP舌诊报告界面]]
+3. [[Project/省中医APP开发/APP的舌诊报告界面\|APP的舌诊报告界面]]
 
 ## 注意点
 1. [[Project/省中医APP开发/APP项目规范\|APP项目规范]]
