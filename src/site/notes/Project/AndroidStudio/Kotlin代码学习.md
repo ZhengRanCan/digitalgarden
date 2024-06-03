@@ -22,6 +22,13 @@
 [[Project/AndroidStudio/数据存储\|数据存储]]
 [[Project/AndroidStudio/依赖注入\|依赖注入]]
 
+## [[Project/AndroidStudio/权限申请\|权限申请]]
+
+
+## API
+[[Project/AndroidStudio/Coil\|Coil]]
+[[Project/AndroidStudio/LaunchedEffect\|LaunchedEffect]]
+
 # REF:
 1. [【码上开学】Kotlin 的变量、函数和类型_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1x4411o7Wy/?spm_id_from=333.788&vd_source=ed636aea03b32e53457a090439165487)
 2. [Kotlin 里那些「不是那么写的」 (rengwuxian.com)](https://rengwuxian.com/kotlin-basic-2/) 朱凯讲得好啊，可以多看看
