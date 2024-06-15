@@ -175,6 +175,21 @@ NavHost(navController = navController, startDestination = RouteConfig.ROUTE_PAGE
 navController.navigate("${RouteConfig.ROUTE_PAGETWO}/黄林晴/26")
 ```
 
+# 在Navigate中Compose和Fragment的对比
+## Compose
+- **简洁和声明式**：Compose 的导航是声明式的，代码更简洁，易于理解和维护。
+- **轻量级**：Compose 的导航不需要 `Fragment`，直接在 `Composable` 函数之间导航，减少了复杂性和开销。
+- **更好的状态管理**：Compose 的状态管理更自然，结合 `ViewModel` 和 `State` 可以更方便地管理界面状态。
+## Fragment
+### 优点
+- **成熟的生态系统**：`Fragment` 和 `NavController` 是 Android 应用开发的标准，生态系统成熟，文档和社区支持丰富。
+- **兼容性**：对于已经使用 `Fragment` 的项目，继续使用 `Fragment` 进行导航可以避免大量的代码重构。
+### 缺点
+- **复杂性**：`Fragment` 的生命周期和状态管理较为复杂，容易引入错误。
+- **样板代码**：需要编写大量的样板代码，代码冗长且不易维护。
+
+因为我目前已经专用Compose了，所以也不用去专门搞个Fragment去折磨，之前之所以想用Fragment，大概是不懂[[Project/AndroidStudio/生命周期\|生命周期]]的相关内容。
+但是对于除了Navigate之外的内容，还不是很清楚。
 
 
 
@@ -183,3 +198,4 @@ navController.navigate("${RouteConfig.ROUTE_PAGETWO}/黄林晴/26")
 1. https://juejin.cn/post/7179590175515738168
 2. https://developer.android.com/codelabs/basic-android-kotlin-compose-navigation?hl=zh-cn#0
 3. [在 Compose 中使用 Navigation 导航，看这一篇就够了~_compose navitation 如何清除所以页面,并打开-CSDN博客](https://blog.csdn.net/weixin_55362248/article/details/123709131) （感觉这一篇讲的好一点...）
+4. [[Project/AndroidStudio/Fragment\|Fragment]]
