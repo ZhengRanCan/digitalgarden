@@ -241,4 +241,4 @@ data class ReportData(
 # REF：
 1. [ViewModel 概览  |  Android 开发者  |  Android Developers](https://developer.android.com/topic/libraries/architecture/viewmodel?hl=zh-cn)
 2. [[Project/AndroidStudio/Kotlin变量、函数、类型\|Kotlin变量、函数、类型]]
-3. [[Project/AndroidStudio/Data Class与Class的区别\|Data Class与Class的区别]]
+3. [[Project/AndroidStudio/Class\|Class]]
